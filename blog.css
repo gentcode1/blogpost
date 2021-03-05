@@ -1,0 +1,169 @@
+.topnav{background-color: gray;
+height: 60px;
+width: 100%;
+position: fixed;
+display: block;
+
+}
+.topnav a{
+    float:right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 18px 25px;
+    text-decoration: none;
+    font-size: 17px;
+    word-spacing: 3px;
+    
+    
+}
+.topnav a:hover{
+    color: blue;
+    background-color: cyan;
+    height: 25px
+}
+body{margin: 0px;
+ background-color: cornsilk;}
+
+
+.Sidenav-search{ 
+    float: right;
+    width: 69%;
+    padding: 10px 25px;
+   margin: 72px;
+   background-color: rgb(99, 117, 99);
+   border: none;
+   font-size: 12px;
+   margin-left: 200px;
+   padding-left: 200px;
+   padding-top: 20pX;
+   position: fixed;
+   
+}
+
+.input {
+    height: 25px;
+    width: 30%;
+    padding-left: 25px;
+}
+img{
+    height:60px;
+    width:120px;
+    margin-left: 0%;
+}
+
+button{
+    height: 22px;
+    width: 40px;
+    margin-left: -45px;
+    border: none;
+
+}
+
+.sidenav{
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 10;
+    top: 80px;
+    left: 0;
+    background-color: rgb(99, 117, 99);
+    overflow: hidden;
+    padding-left: 20px;
+    margin-top: -8px;
+}
+
+.sidenav a{
+    padding: 6px 6px 8px 6px;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+.sidenav  a:hover{
+    background-color: white;
+}
+.col{float:left;
+     width: 16%;
+    padding: 90px 89Px;
+    margin-left: 10%;
+    display: block;}
+ .row{
+     margin: 0 3px;
+     box-shadow: 0 1px 2px 4px;
+     display: table;
+ }
+
+ .row:after{
+     content: "";
+     display: table;
+     margin-bottom: 20px;
+
+ }
+ .cards{
+     height: 100%;
+     width: 80%;
+     margin-left: 10%;
+     top: 20%;
+     left: 20%;
+     padding-top: 90px;
+     padding-left: 90px;
+
+ }
+ .cards ::after{
+     display: table;
+ }
+
+.card{
+    float: left;
+grid-template-columns: auto auto auto auto;
+   margin-top: 90px;  
+   box-shadow: 0 5px 6px 3px; 
+  text-align: center; 
+  margin-left: 30px;
+  background-color: rgb(235, 233, 233);
+}
+
+ #col {
+    float:left;
+    width: 25%;
+    height: 3%;
+    padding: 90px 90Px;
+    margin-left: 20%;
+    display:none;
+    box-sizing: border-box;
+    margin-top: -950px;
+
+}
+.signButton{
+    background-color: black;
+    color: blanchedalmond;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover{
+    opacity: 0.9;
+    
+}
+#col button{
+    
+    width: 50%;
+    color: blanchedalmond;
+    cursor: pointer;
+    padding-left: 10px;
+}
+#more{
+    padding-left: 250px;
+    padding-top: 15%;
+}
+
+
+
+    
+
+
+
+ 
+    
+    
+   
+    
